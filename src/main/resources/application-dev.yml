@@ -1,0 +1,11 @@
+debug: true
+
+server:
+  port: 8082
+
+app:
+  message: This is property file to the ${spring.application.name} specific to DEV environments
+
+spring:
+  datasource:
+    my-conf: DEV-CONFIGURATIONS
